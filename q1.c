@@ -6,12 +6,11 @@ char str[100]="Day is beautiful";
 int top=-1;
 
 void push(char c){
-    char stack;
     if(top==strlen(str)-1){
         printf("string finish");
     }else{
         top++;
-        stack=c;
+        str[top]=c;
     }
 
 }
